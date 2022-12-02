@@ -5,12 +5,14 @@ const main = async () => {
     const files = readdirSync("./" + defaultLang)
     // read default language
     const defaultFileLanguageMap = {}
-    for (const file in files) {
-        defaultFileLanguageMap[file] = JSON.parse(readFileSync("./" + defaultLang + "/" + file).toString("utf8"))
+    for (const file of files) {
+        const languageFilePath = "./" + defaultLang + "/" + file
+        console.log(languageFilePath)
+        defaultFileLanguageMap[file] = JSON.parse(readFileSync(languageFilePath).toString("utf8"))
     }
     // read other languages
-    for (const language in languages) {
-        for (const file in files) {
+    for (const language of languages) {
+        for (const file of files) {
             const languageFilePath = "./" + language + "/" + file
             const languageFile = readFileSync(languageFilePath)
             const languageJson = JSON.parse(languageFile.toString("utf8"))
