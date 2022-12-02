@@ -118,5 +118,6 @@
   "daistats.vote_history.description.vote_log_etch": "新しい投票候補のセットが登録されました: %{candidates}",
   "daistats.vote_history.description.vote_log_vote.old_slate": "ユーザーは %{oldAddresses}から%{newAddresses}に %{yendao} YENDAO の票を移動させました。",
   "daistats.vote_history.description.vote_log_vote.not_old_slate": "ユーザーは %{newAddresses} に %{yendao} YENDAO を投票しました。",
-  "": ""
+  "": "",
+  "daistats.vault_information.individual_vault": "Individual Vault"
 }
