@@ -7,7 +7,6 @@ const main = async () => {
     const defaultFileLanguageMap = {}
     for (const file of files) {
         const languageFilePath = "./" + defaultLang + "/" + file
-        console.log(languageFilePath)
         defaultFileLanguageMap[file] = JSON.parse(readFileSync(languageFilePath).toString("utf8"))
     }
     // read other languages
