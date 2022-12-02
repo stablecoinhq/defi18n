@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync, writeFileSync } from "fs"
+const { readFileSync, readdirSync, writeFileSync } = require("fs")
 const main = async () => {
     const languages = ["af", "de", "en", "es", "fa", "fr", "ga", "id", "it", "jp", "kr", "pl", "pt-br", "ro", "ru", "tr", "uk", "zh-TW"]
     const defaultLang = "en"
