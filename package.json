@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "set-default": "node index.js"
+    "set-default": "node scripts/add-default-translation-from-en.js",
+    "convert-dai-to-jpysc": "node scripts/convert-dai-to-jpysc.js"
   },
   "repository": {
     "type": "git",
