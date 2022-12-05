@@ -153,7 +153,6 @@
   "daistats.auction.start_date": "Start date",
   "daistats.auction.duration": "Duration",
   "daistats.auction.pending_change": "Pending change",
-  "daistats.auction.total_unbacked_jpysc_including_penalties_dirtTotal": "Unbacked JPYSC including Penalties (Dirt)",
   "daistats.auction.global_limit_hole": "Global Limit (Hole)",
   "daistats.auction.clip.collateral_ilk": "Collateral (Ilk)",
   "daistats.auction.clip.clip_auctions": "(Clip) Auctions",
@@ -186,5 +185,7 @@
   "daistats.vesting.total_reward": "Total Reward",
   "daistats.vesting.start_date": "Start Date",
   "daistats.vesting.cliff_date": "Cliff Date",
-  "daistats.vesting.end_date": "End Date"
+  "daistats.vesting.end_date": "End Date",
+  "daistats.auction.days": "Days",
+  "daistats.auction.total_unbacked_jpysc_including_penalties_dirt": "Unbacked JPYSC including Penalties (Dirt)"
 }

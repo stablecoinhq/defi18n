@@ -18,6 +18,10 @@ const main = async () => {
             replaceString: "YENDAO"
         }
     ]
+    const removeList = [
+        "daistats.auction.total_unbacked_jpysc_including_penalties_dirtTotal",
+        ""
+    ]
     const defaultLang = "en"
     const files = readdirSync("./" + defaultLang)
     // read other languages
@@ -31,6 +35,11 @@ const main = async () => {
                     if (languageJson[key]) {
                         languageJson[key] = languageJson[key].replace(replaceElement.replaceRegex, replaceElement.replaceString)
                     }
+                }
+            }
+            for (const removeElement of removeList) {
+                if (languageJson[removeElement]) {
+                    languageJson[removeElement] = undefined
                 }
             }
             writeFileSync(languageFilePath, JSON.stringify(languageJson, null, 2))
