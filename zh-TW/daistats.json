@@ -5,7 +5,7 @@
   "daistats.collat_ratio": "抵押率",
   "daistats.dai_brewing": "JPYSC打包總量",
   "daistats.dai_from_token": "%{token}生成JPYSC總量",
-  "daistats.dai_in_dsr": "DSR 總量",
+  "daistats.dai_in_dsr": "JSR 總量",
   "daistats.dai_savings_rate": "JPYSC 存款利率",
   "daistats.dai_surplus_auctions": "盈餘拍賣",
   "daistats.debt_available_heal": "可償負債",
