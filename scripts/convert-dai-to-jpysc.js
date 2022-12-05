@@ -11,7 +11,7 @@ const main = async () => {
             const languageFile = readFileSync(languageFilePath)
             const languageJson = JSON.parse(languageFile.toString("utf8"))
             for (const key of relace_keys) {
-                if (!languageJson[key]) {
+                if (languageJson[key]) {
                     languageJson[key] = languageJson[key].replace(/dai/ig, "JPYSC")
                 }
             }
