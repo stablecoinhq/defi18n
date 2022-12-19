@@ -75,6 +75,8 @@
   "daistats.vault_information.vault_debt_change_log": "債務変更",
   "daistats.vault_information.vault_split_change_log": "Vault分割",
   "daistats.vault_information.vault_transfer_change_log": "Vault移転",
+  "daistats.vault_information.liquidation_start_log": "精算開始",
+  "daistats.vault_information.liquidation_finish_log": "精算終了",
   "// Auction Participants page": "",
   "daistats.auction_participants.title": "オークション参加者",
   "daistats.auction_participants.auction_participants_chart": "オークション参加者チャート",

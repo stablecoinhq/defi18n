@@ -189,5 +189,7 @@
   "daistats.auction.days": "Days",
   "daistats.auction.total_unbacked_jpysc_including_penalties_dirt": "Unbacked JPYSC including Penalties (Dirt)",
   "daistats.vote_history.popular_candidates": "Popular candidates",
-  "daistats.vote_history.user_vote_actions": "User ote actions"
+  "daistats.vote_history.user_vote_actions": "User vote actions",
+  "daistats.vault_information.liquidation_start_log": "Liquidation start",
+  "daistats.vault_information.liquidation_finish_log": "Liquidation finish"
 }
