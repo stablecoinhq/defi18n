@@ -118,6 +118,8 @@
   "daistats.vote_history.description.vote_log_etch": "New set of candidates are registered: %{candidates}.",
   "daistats.vote_history.description.vote_log_vote.old_slate": "The user voted %{yendao} YENDAO to %{newAddresses} and removed votes from %{oldAddresses}.",
   "daistats.vote_history.description.vote_log_vote.not_old_slate": "The user voted %{yendao} YENDAO to %{newAddresses}.",
+  "daistats.vote_history.popular_candidates": "Popular candidates",
+  "daistats.vote_history.user_vote_actions": "User ote actions",
   "// old daistats": "",
   "daistats.oldmain.overview": "Overview",
   "daistats.oldmain.collateral": "Collateral",

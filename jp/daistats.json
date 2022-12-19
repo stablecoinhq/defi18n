@@ -118,7 +118,8 @@
   "daistats.vote_history.description.vote_log_etch": "新しい投票候補のセットが登録されました: %{candidates}",
   "daistats.vote_history.description.vote_log_vote.old_slate": "ユーザーは %{oldAddresses}から%{newAddresses}に %{yendao} YENDAO の票を移動させました。",
   "daistats.vote_history.description.vote_log_vote.not_old_slate": "ユーザーは %{newAddresses} に %{yendao} YENDAO を投票しました。",
-  "": "",
+  "daistats.vote_history.popular_candidates": "投票数の多い候補者",
+  "daistats.vote_history.user_vote_actions": "最近の投票履歴",
   "// old daistats": "",
   "daistats.oldmain.overview": "概要",
   "daistats.oldmain.collateral": "担保",
@@ -186,5 +187,6 @@
   "daistats.vesting.total_reward": "報酬合計",
   "daistats.vesting.start_date": "開始日",
   "daistats.vesting.cliff_date": "Cliff Date",
-  "daistats.vesting.end_date": "終了日"
+  "daistats.vesting.end_date": "終了日",
+  "": ""
 }
