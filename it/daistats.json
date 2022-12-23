@@ -191,5 +191,11 @@
   "daistats.vote_history.popular_candidates": "Popular candidates",
   "daistats.vote_history.user_vote_actions": "User vote actions",
   "daistats.vault_information.liquidation_start_log": "Liquidation start",
-  "daistats.vault_information.liquidation_finish_log": "Liquidation finish"
+  "daistats.vault_information.liquidation_finish_log": "Liquidation finish",
+  "daistats.vaults_at_risk.price_drop_input_error": "Price drop ratio value is wrong.",
+  "daistats.vault_information.vault_id_input_error": "Vault ID input has error.",
+  "daistats.risk_model.jump_severity_input_error": "Jump severity value is wrong.",
+  "daistats.risk_model.jump_frequency_input_error": "Jump frequency value is wrong.",
+  "daistats.risk_model.keeper_profit_input_error": "Keeper profit value is wrong.",
+  "daistats.risk_model.vault_type_input_error": "Vault type is wrong."
 }
